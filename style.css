@@ -1,19 +1,22 @@
-.game-board {
-    display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px;
-}
-
-body {
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+  
+  .container {
     display: flex;
-    justify-content: center;
-}
-
-.box {
-    background: white;
-    border: 5px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
+    flex-direction: column;
+  }
+  
+  #reset {
+    margin: 48px 40%;
+    padding: 20px;
+  }
