@@ -1,0 +1,77 @@
+// $color_1: white;
+// $color_2: red;
+// $color_3: blue;
+// $color_4: black;
+// $background-color_1: black;
+// $background-color_2: white;
+
+// * {
+// 	padding: 0;
+// 	margin: 0;
+// }
+// .background {
+// 	background-color: $background-color_1;
+// 	height: 100vh;
+// 	padding-top: 1px;
+// }
+// .title {
+// 	color: $color_1;
+// 	text-align: center;
+// 	font-size: 40px;
+// 	margin-top: 10%;
+// }
+// .display {
+// 	color: $color_1;
+// 	font-size: 25px;
+// 	text-align: center;
+// 	margin-top: 1em;
+// 	margin-bottom: 1em;
+// }
+// .hide {
+// 	display: none;
+// }
+// .container {
+// 	margin: 0 auto;
+// 	display: grid;
+// 	grid-template-columns: 33% 33% 33%;
+// 	grid-template-rows: 33% 33% 33%;
+// 	max-width: 300px;
+// }
+// .tile {
+// 	border: 1px solid white;
+// 	width: 100px;
+// 	height: 100px;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	font-size: 50px;
+// 	cursor: pointer;
+// }
+// .playerX {
+// 	color: $color_2;
+// }
+// .playerO {
+// 	color: $color_3;
+// }
+// .controls {
+// 	display: flex;
+// 	flex-direction: row;
+// 	justify-content: center;
+// 	align-items: center;
+// 	margin-top: 1em;
+// 	button {
+// 		color: $color_4;
+// 		padding: 8px;
+// 		border-radius: 8px;
+// 		border: none;
+// 		font-size: 20px;
+// 		margin-left: 1em;
+// 		cursor: pointer;
+// 	}
+// }
+// .restart {
+// 	background-color: $background-color_1;
+// }
+// #reset {
+// 	background-color: $background-color_2;
+// }
